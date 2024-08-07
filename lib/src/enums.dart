@@ -30,7 +30,7 @@ class PaperSize {
   static const mm58 = PaperSize._internal(1);
   static const mm72 = PaperSize._internal(2);
   static const mm80 = PaperSize._internal(3);
-   static const mm100 = PaperSizes._internal(4);  // Added for 100mm width
+   static const mm100 = PaperSize._internal(4);  // Added for 100mm width
 
 
   int get width {
