@@ -31,6 +31,7 @@ class PaperSize {
   static const mm72 = PaperSize._internal(2);
   static const mm80 = PaperSize._internal(3);
    static const mm100 = PaperSize._internal(4);  // Added for 100mm width
+   static const mm120 = PaperSize._internal(5);  // Added for 100mm width
 
 
   int get width {
@@ -41,6 +42,9 @@ class PaperSize {
     }
      else if (value == PaperSize.mm100.value) {  // Added for 100mm width
       return 800;  // 100mm width in dots
+    }
+      else if (value == PaperSize.mm120.value) {  // Added for 100mm width
+      return 1200;  // 100mm width in dots
     }
     else {
       return 576;
